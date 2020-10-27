@@ -1,0 +1,162 @@
+Finished codepen link: https://codepen.io/monicascz/pen/abZwoNK 
+
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    HTML that has meaning for what it does. 
+    
+    2. What is HTML used for? 
+    It gives the foundation or building blocks for the website.
+
+    3. What is an attribute and where do we put it? 
+    An attribute provides addtional information about elements. You put them in the start tag. 
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 is used for the title of a page. It should only be used one time.
+
+    5. Name two tags that have required attributes
+    <a href=""></a>
+    <img src="">
+
+    6. What do we put in the head of our HTML document? 
+    The metadata.
+
+    7. What is an id? 
+    An id is a way to identify a certain element. 
+
+    8. What elements can I add an id to? 
+    Any element you want to call in your stylesheet or Javascript. 
+
+    9. How many times can I use the same id on a page? 
+    The same id should only be used one time.
+
+    10. What is a class? 
+    A class is a way to identify a group of certain elements. 
+
+    11. What elements can I add a class to? 
+    Usually div or section, but can be added to most elements.  
+
+    12. How many times can I use the same class on a page? 
+    As many times as you want. 
+
+    13. How do I get my link to open in a new tab?
+    target="_blank"
+
+    14. What is the alt attribute in the image tag used for? 
+    To describe what is displayed in the image for screen readers and accessibility. 
+
+    15. How do I reference an id?
+    #id
+
+    16. What is the difference between a section and a div?
+    Both define a container - Section is more for separating sections that have connected content. Div is an empty container.
+
+    17. What is CSS used for?
+    Styling. Stands for Cascading Style Sheet
+
+    18. How to we select an element? Example - every h2 on the page
+    In CSS you would just list the h2{}. 
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    class identifies a connected group of elements. id is a selector for just one.
+    An example:
+    <div class="fruits">
+        <ul>
+            <li> apple </li>
+            <li id="non-red-fruit"> banana </li>
+            <li> strawberry </li>
+            <li> raspberry </li>
+        </ul>
+    </div>
+
+    20. How do we select classes in CSS?
+    .class
+
+    21. How do we select a p element with a single class of “human””?
+    .human p 
+
+    22. What is a parent child selector? When would this be useful? 
+    A parent child selector is when you select all of the elements that are nested inside the parent. This would be useful. In the fruit example above, you could use this to select all of the listed fruits.
+    
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar a
+        .sidebar:links 
+
+    24. What is a pseudo selector?
+    A selector that works under a certain state. I.e. the :hover. 
+
+    25. What do we use the change the spacing between lines?
+    line-spacing:
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing:
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform:
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px dotted black;
+
+    29. How do I select everything on the page? 
+    *
+
+    30. How do I write a comment in CSS?
+    /* */
+
+    31. How do I find out what file I am in, when I am using the command line?
+    pwd 
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm. Becareful because if you remove a file it is gone for good and not recoverable. 
+
+    34. Why should I use version control?
+    It helps to collaborate so you can work on your own part without jeopardizing other work. It helps track changes, and prevents conflict.
+
+    35. How often should I commit to github?
+    About every 20 minutes. 
+
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin Fname-Lname
+
+    37. Walk me through Lambda's git flow. 
+        1.) Fork
+        2.) Clone the repo
+        3.) In terminal use cd to find the file you want to clone your forked repo to.
+        4.) Use git clone <link to repo>
+        5.) cd into the new repo - cd <repo-name>
+        6.) git checkout - b 'Fname-Lname' to create your own branch.
+        7.) work on your project, make saves
+        8.) Every 20 minutes = 
+                git add .
+                git commit -m "A helpful message"
+                git push - u origing Fname-Lname 
+        9.) In Github you can submit a pull request (double-check it is the forked version)
+        10.) Create pull request
+    
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+   Inline are in line and fill the space needed without a break. Block elements start on a new line and takes up the full width available. 
+   
+   2. What happens when an element is positioned absolutely? 
+   It means that it's position is fixed and it does not move in the regular layout.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    display: flex;
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Button, Address, li 
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    There is content at the center of everything we do, that is usually the HTML, or the foundation. When we add CSS, we have the ability to manipulate the space around our foundation.
+    The order in which we manipulate space around our foundation is padding, (outlined by border), then margin.
+
+
+   --> 
